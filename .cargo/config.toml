@@ -1,0 +1,4 @@
+[alias]
+dev = "run --bin game --features game/dev"
+release = "build --profile distribution -F tracing/release_max_level_error -F log/release_max_level_error"
+codegen = "run --bin codegen"

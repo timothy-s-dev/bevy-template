@@ -1,0 +1,1 @@
+cargo run --quiet --bin game --features game/dev -- dump-schedule update | dot -Tsvg > docs/update_graph.svg
